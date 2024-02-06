@@ -1,0 +1,130 @@
+/* background homepage settings */
+body {
+    font-family: 'Tektur', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(136, 240, 240);
+    background-image: url('../image and font/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+}
+   
+
+/* logo */
+.left {
+    color: azure;
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid teal; */
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    display: inline-block;
+    font-style: oblique;
+    background-image: ;
+}
+
+/* navigations */
+.mid {
+    color: azure;
+    /* border: 1px solid yellow; */
+    width: 30%;
+    margin: 30px auto;
+    display: block;
+    
+}
+
+/* search */
+.right {
+    color: azure;
+    /* border: 1px solid red; */
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: rgba(247, 240, 240, 0.822);
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 20px ;
+    margin: 0%;
+}
+
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: rgb(101, 97, 97);
+}
+
+.left img{
+    width: 130px;
+    height: 50px;
+}
+
+.left div{
+    text-align: center;
+    line-height: 35px;
+}
+
+.btn{
+    font-family: 'Tektur', sans-serif;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(147, 141, 141);
+    
+}
+
+.container{
+    border: 1px solid rgb(248, 248, 252);
+    margin: 100px 100px;
+    padding: 30px 100px ;
+    border-radius: 20px;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.form input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 15px auto;
+    padding: 5px auto;
+    border: 0%;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Tektur', sans-serif;
+}
+
+.container h1{
+text-align: center;
+}
+
+.container button{
+    display: block;
+    margin: auto;
+    width: 50%;    
+}
